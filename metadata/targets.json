@@ -1,0 +1,84 @@
+{
+ "signatures": [
+  {
+   "keyid": "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
+   "sig": "d804db2b7b1e663b4823a8607419dc8e34c3feb6e6d7f58e1def3672d9f639e51394fb4873b2f0ab0654366f6fffbb71b49ee62edb288a1db2a01438f91107dbd313d1d67620456272f6c302a733587a7fd9185d5068e8be4bb0f0621aceb7e79c410efbec121066c2dc6d49f012de04d9ed5b13cc8416b040760d1c93198cab6fa8fbaf46bc0a77fbcc6a482df7a69d9158a5ca97a7883c6c0d0a2ab135d072066f24451c3739fb8adcdc7f8ecf9f77198b3466cfdc9a2934fac0098cf4320319b6c9b28ce892dfe2c0b077a651ce842cdc44098dd81f662c77c5ea92a63d6b2527f9738328dd7d1c5ce92b9b724d9e7f47f8c11ee2e399027494ead3c946e1"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "delegations": {
+   "keys": {
+    "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6OyuwnpYgc3asb9sp8rR\nI+8IBFubCsnVoNooFwK0I/mHVM37PA6GOgsfvDcwYVO5hxTSzkiiPXVkXcQvQIqj\nxYM+mIvRMoMMZYGe7FG5lyKCsOkAyRVouc65aemcpL3YvfJfk6d0emv178x5Npge\nV+mHu5FTSPmxvHH2yMQms9o8TWlrDQUBn6s24s/FFTu4Z2SQbJHhJTgFpHIl50Bq\nE28NJLSG5KI5waEaA/oQTATTLGVF/nsVouZQop34CzObpPzD+r7XqrTT7IquEfDj\nwKeCE6UWrypkCo6k7hdv9ZV/oihqeSNMzsyppvfiH9tfMS+sjte43yn5YjME9ZPd\nYwIDAQAB\n-----END PUBLIC KEY-----"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68"
+     ],
+     "name": "law",
+     "paths": [
+      "lco-nsn/law-xml",
+      "lco-nsn/law-html",
+      "lco-nsn/law-xml-codified",
+      "capstone",
+      "branch"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68"
+     ],
+     "name": "docs",
+     "paths": [
+      "lco-nsn/law-docs"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68"
+     ],
+     "name": "assets",
+     "paths": [
+      "lco-nsn/law-static-assets"
+     ],
+     "terminating": true,
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2022-06-27T14:26:28Z",
+  "spec_version": "1.0",
+  "targets": {
+   "mirrors.json": {
+    "hashes": {
+     "sha256": "a0c04b22f063a6f79f54ec2afbf2710579040a851b0a8d27d642062e32384848",
+     "sha512": "714374a62cdbc9230a68152d21583e8b61144388714f2c606087b0979ae65e47fd6fb6607189d040abd4bfd0227a107c10df7692a35ad2b16238ec2930f3d7ac"
+    },
+    "length": 77
+   },
+   "repositories.json": {
+    "hashes": {
+     "sha256": "e2822d15d6124af8fb3a14af42a308d39f9a95a3d5df3a573d9301f04ad32351",
+     "sha512": "10a6abe8287952ef01c6396b34bf46c82d43022ea66bf64c56fc9a0b298daab2ee380469d7d62f3673e484a76502317e99bf8bb47fd1357453c9397f9e13edfd"
+    },
+    "length": 1778
+   }
+  },
+  "version": 1
+ }
+}
