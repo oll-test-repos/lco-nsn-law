@@ -1,1 +1,1 @@
-oll-partners~=2.11.0 # oll.partners.us.nsn.lco.council
+oll-partners~=2.12.0 # oll.partners.us.nsn.lco.council
