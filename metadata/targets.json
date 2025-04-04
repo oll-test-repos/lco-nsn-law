@@ -1,0 +1,95 @@
+{
+ "signatures": [
+  {
+   "keyid": "ba65808977548012b65ab8229f7b939e2339703cec3686ef816f2480274e7f9b",
+   "sig": "607cbb6ce81694e704a4a35bf819a1523ff9a523e082123cdfbf60e310e6569f111cdb9edcdd3c20274c6d85b508cddc254fee2fdfbf9446a1f51489c9dbbd483227b86cf45bb0006513969c09737b41775837337d112d3de241bc66f9fcd73c2224804b788ee31eb8308f7992173d4108fa4012cc2676fe2bb0808e420b4b0362ca1c82fc44481e96d9dff64fe5c23ca94f3a6cf8cf488f0b302450a3041323188cc8ff1db66b4b6238386e95a73e3cdc8f8a69dc794ac80f987cb19e6e9c0960b07e6a897286020d57818f3ee4711603b5c47987baa1900c305d9bf879b9791552f09698309ce0d8d17a8eb181e028a068d3702a9a68b0d583744b70eab120"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "delegations": {
+   "keys": {
+    "ba65808977548012b65ab8229f7b939e2339703cec3686ef816f2480274e7f9b": {
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtdvJF1Q7fRNTQfgGMH/W\n2Sb4O/PemLHKcBj6Q1Nadvii+lF+lfsD/VqzEuNaM2fpJpostWzJR1jdeyjRZS9G\ndToEA9iSD0MczHRLWa9a1NMcPBC/Edts1oXogk23+NSL/Ugc5H+WikDuwMMYhA3o\nNgVgAtfDfJQJFkbI033DwcYjbBmlt/gnTVNUSHuoG8M2EurchMnZZIqSawEaL82Q\nIFUhEuGSljcb/WRj6XHY7upCvjJOMN2kH/zz4kGR8j5t61TKiLiepjunuQMGg+fl\njEm4v0fandpwWLdx7kYSbftmbQjnuPhBd3g3BQ721O4dYkLA/ncca9XryLqN8Cac\ngQIDAQAB\n-----END PUBLIC KEY-----\n"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    },
+    "d4d3bb6342cec2874975654b613474482c8a181d021eb79ed7aecbbb6f6fe542": {
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAnx6lib/YLZ0PLWoXZ0yS\n4ZVAeShi0l3JL8rBhX5rvA8sECyv572rgiLRjMv2m+cHChcdkVwlVhEYdTwNwQCs\nIDqky5VU76o6jcPoKas1k0AvDjgP4fTnFVJbAxhAw2M6Ybt4/7lQ8yEcqWBM8G3U\nEX/Djep8KYFobUr2nJhQtGQNWZLS7c4JOQE8H4qKVRtoQx3NkQovRE53BBa/Qj++\nbvqeGSWpw7BIgq4ntD80HZnekatAOXbiM6rmxbK82OGqKZsqaBv8j31AEGRVAbei\nR8Sa1XvYminDRqyDvmWOlCdAkqVsyzgPWTMIlw1sydlofip01LkCegXAFx636Cvs\n+bpvOUCnOwSP+kw33eqSZSKUZ/IpSJrq+/lhstJNSxLko+wc3mKXztqClG+CCYbC\n+z7bulTpdRHFvnhWQBQbi7GrZ0QMo7PSjtpBYIAQ5LYKqyryZvzO21WOwp7l2Ap1\nDgUyUi3vITva3fQNr1Zpg9/8x782UUbX4HU0T2dw/r9vAgMBAAE=\n-----END PUBLIC KEY-----\n"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "ba65808977548012b65ab8229f7b939e2339703cec3686ef816f2480274e7f9b"
+     ],
+     "name": "law",
+     "paths": [
+      "lco-nsn/law-xml",
+      "lco-nsn/law-html",
+      "lco-nsn/law-xml-codified",
+      "law/capstone",
+      "law/branch",
+      "capstone",
+      "branch"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "ba65808977548012b65ab8229f7b939e2339703cec3686ef816f2480274e7f9b"
+     ],
+     "name": "rdf",
+     "paths": [
+      "lco-nsn/law-rdf",
+      "rdf/branch",
+      "rdf/capstone"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "ba65808977548012b65ab8229f7b939e2339703cec3686ef816f2480274e7f9b"
+     ],
+     "name": "docs",
+     "paths": [
+      "lco-nsn/law-docs"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "d4d3bb6342cec2874975654b613474482c8a181d021eb79ed7aecbbb6f6fe542"
+     ],
+     "name": "assets",
+     "paths": [
+      "lco-nsn/law-static-assets"
+     ],
+     "terminating": true,
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2025-07-03T11:23:36Z",
+  "spec_version": "1.0.31",
+  "targets": {
+   "test-auth-repo": {
+    "hashes": {
+     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e"
+    },
+    "length": 0
+   }
+  },
+  "version": 2
+ }
+}
