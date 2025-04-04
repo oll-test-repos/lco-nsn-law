@@ -63,7 +63,7 @@
                 "location_regex": "~.+(_document|_reader).+$",
                 "is_fallback": true,
                 "routes": [
-                    ".*_document/.*",
+                    ".*/_document/.*",
                     "_reader/.*"
                 ]
             }
