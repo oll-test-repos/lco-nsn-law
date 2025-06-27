@@ -1,63 +1,72 @@
 {
-    "scopes": ["us/nsn/lco/council"],
-    "repositories": {
-        "lco-nsn/law-docs": {
-            "urls": [
-                "git@github.com:lco-nsn/law-docs.git"
-            ],
-            "custom": {
-                "allow-unauthenticated-commits":true,
-                "serve":"latest",
-                "location_regex":"~/.*\\.pdf$",
-                "routes": [".*\\.pdf"]
-            }
-        },
-        "lco-nsn/law-xml": {
-            "urls": [
-                "git@github.com:lco-nsn/law-xml.git"
-            ],
-            "custom": {
-                "type":"xml",
-                "allow-unauthenticated-commits":true,
-                "serve":"latest",
-                "serve-prefix":"_uncodified_xml"
-            }
-        },
-        "lco-nsn/law-html": {
-            "urls": [
-                "git@github.com:lco-nsn/law-html.git"
-            ],
-            "custom": {
-                "preview":"git@github.com:lco-nsn/law-html-preview.git",
-                "type":"html",
-                "serve":"historical",
-                "location_regex":"/",
-                "routes": [".*"]
-            }
-        },
-        "lco-nsn/law-xml-codified": {
-            "urls": [
-                "git@github.com:lco-nsn/law-xml-codified.git"
-            ],
-            "custom": {
-                "preview":"git@github.com:lco-nsn/law-xml-codified-preview.git",
-                "type":"xml-codified",
-                "serve":"historical",
-                "serve-prefix":"_xml"
-            }
-        },
-        "lco-nsn/law-static-assets": {
-            "urls": [
-                "git@github.com:lco-nsn/law-static-assets.git"
-            ],
-            "custom": {
-                "type":"static-assets",
-                "allow-unauthenticated-commits":true,
-                "serve":"latest",
-                "location_regex":"~.+(_document|_reader).+$",
-                "is_fallback": true,
-				"routes": [".*_document/.*", "_reader/.*"]
-            }
-        }
+  "scopes": [
+    "us/nsn/lco/council"
+  ],
+  "repositories": {
+    "lco-nsn/law-docs": {
+      "urls": [
+        "git@github.com:lco-nsn/law-docs.git"
+      ],
+      "custom": {
+        "allow-unauthenticated-commits": true,
+        "serve": "latest",
+        "location_regex": "~/.*\\.pdf$",
+        "routes": [
+          ".*\\.pdf"
+        ]
+      }
+    },
+    "lco-nsn/law-xml": {
+      "urls": [
+        "git@github.com:lco-nsn/law-xml.git"
+      ],
+      "custom": {
+        "type": "xml",
+        "allow-unauthenticated-commits": true,
+        "serve": "latest",
+        "serve-prefix": "_uncodified_xml"
+      }
+    },
+    "lco-nsn/law-html": {
+      "urls": [
+        "git@github.com:lco-nsn/law-html.git"
+      ],
+      "custom": {
+        "preview": "git@github.com:lco-nsn/law-html-preview.git",
+        "type": "html",
+        "serve": "historical",
+        "location_regex": "/",
+        "routes": [
+          ".*"
+        ]
+      }
+    },
+    "lco-nsn/law-xml-codified": {
+      "urls": [
+        "git@github.com:lco-nsn/law-xml-codified.git"
+      ],
+      "custom": {
+        "preview": "git@github.com:lco-nsn/law-xml-codified-preview.git",
+        "type": "xml-codified",
+        "serve": "historical",
+        "serve-prefix": "_xml"
+      }
+    },
+    "lco-nsn/law-static-assets": {
+      "urls": [
+        "git@github.com:lco-nsn/law-static-assets.git"
+      ],
+      "custom": {
+        "type": "static-assets",
+        "allow-unauthenticated-commits": true,
+        "serve": "latest",
+        "location_regex": "~.+(_document|_reader).+$",
+        "is_fallback": true,
+        "routes": [
+          ".*/_document/.*",
+          "_reader/.*"
+        ]
+      }
     }
+  }
 }
