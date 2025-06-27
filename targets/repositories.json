@@ -4,9 +4,6 @@
     ],
     "repositories": {
         "lco-nsn/law-docs": {
-            "urls": [
-                "git@github.com:lco-nsn/law-docs.git"
-            ],
             "custom": {
                 "allow-unauthenticated-commits": true,
                 "serve": "latest",
@@ -17,9 +14,6 @@
             }
         },
         "lco-nsn/law-xml": {
-            "urls": [
-                "git@github.com:lco-nsn/law-xml.git"
-            ],
             "custom": {
                 "type": "xml",
                 "allow-unauthenticated-commits": true,
@@ -28,9 +22,6 @@
             }
         },
         "lco-nsn/law-html": {
-            "urls": [
-                "git@github.com:lco-nsn/law-html.git"
-            ],
             "custom": {
                 "preview": "git@github.com:lco-nsn/law-html-preview.git",
                 "type": "html",
@@ -42,9 +33,6 @@
             }
         },
         "lco-nsn/law-xml-codified": {
-            "urls": [
-                "git@github.com:lco-nsn/law-xml-codified.git"
-            ],
             "custom": {
                 "preview": "git@github.com:lco-nsn/law-xml-codified-preview.git",
                 "type": "xml-codified",
@@ -53,9 +41,6 @@
             }
         },
         "lco-nsn/law-static-assets": {
-            "urls": [
-                "git@github.com:lco-nsn/law-static-assets.git"
-            ],
             "custom": {
                 "type": "static-assets",
                 "allow-unauthenticated-commits": true,
